@@ -1,0 +1,177 @@
+body {
+    font-family: 'Roboto', sans-serif;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    
+    
+  }
+  body::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/journal-1\ \(1\).webp);
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px); 
+    z-index: -1;
+  }
+  
+  
+  
+  .img{
+    height: 180px;
+    display: flex;
+            
+            
+  }
+  .container {
+  
+    z-index: 1; 
+    background: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 420px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  
+  .container h2 {
+    margin-bottom: 15px;
+    font-size: 34px;
+    color: #333;
+    font-weight:700;
+  }
+  .inputs label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: #555;
+  }
+  .inputs input{
+    width: 70%;
+    padding: 10px;
+    margin: 5px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  .inputs select {
+    width: 65%;
+    padding: 10px;
+    margin: 5px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  button {
+    
+    background-color: #3a20e8;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    width: 12vw;
+    height: 7vh;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #0f65fb;
+  }
+  button:focus {
+    outline: none;
+  }
+  
+  input:focus,
+  select:focus {
+    outline: none;
+    border: 1px solid #2200ff;
+  }
+  
+  .formgroup {
+    margin-bottom: 15px;
+    text-align: center;
+  
+  }
+  .formgroup label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .formgroup input {
+    
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .modal-content{
+            background-color: #ff4c4c;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            margin: 0;
+  }
+  .modal-body{
+    width: 93%;
+    background-color: #fff;
+    color: #1a1919;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .modal-footer button{
+    width: 96%;
+  background-color: #000000;
+  
+  }
+  
+  
+  
+  
+  /* media query */
+  @media only screen and (max-width: 768px) {
+   
+    body{
+        background-size: cover;
+    }
+    .container{
+       width: 80vw;
+       height: 60vh;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        padding: 0px;
+        margin: 0px;
+        margin-top: 15px;
+        width: 40%;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+   
+    body{
+        background-size: cover;
+    }
+  }

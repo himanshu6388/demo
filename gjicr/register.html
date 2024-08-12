@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login & Register</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/css/register.css">
+</head>
+<body>
+  <!-- header -->
+  <div class=" header-top container-fluid p-5  text-white text-center">
+    <img class="logo" src="https://tse2.mm.bing.net/th?id=OIP.UHFmXrPTR6jecCz61zehkAHaHc&pid=Api&P=0&h=180" alt="">
+      <h1>Journal Research</h1>
+      <p>www.journalresearch.com</p> 
+    </div>
+    <!-- header end -->
+<div class="container mt-5">
+  <div class="row">
+    <!----------------------------Register Form ----------------------------------->
+    <div class="col-md-6">
+      <h2 class="text-center">Register</h2>
+      <form>
+        <div class="form-group">
+          <label for="registerName">Name</label>
+          <input type="text" class="form-control" id="registerName" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="registerEmail">Email address</label>
+          <input type="email" class="form-control" id="registerEmail" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="registerPassword">Password</label>
+          <input type="password" class="form-control" id="registerPassword" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+        </div>
+        <button type="submit" class="btn btn-success btn-block">Register</button>
+      </form>
+    </div>
+
+  </div>
+</div>
+
+<script>
+    document.querySelector('form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      // Add validation logic here
+      alert('Form submitted!');
+    });
+  </script>
+  
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Submit Manuscript</title>
+    <style>
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    height:600px;
+}
+.card{
+    border:none;
+}
+.form-heading {
+    margin-bottom: 30px;
+}
+.form-group label {
+    font-weight: bold;
+}
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+}
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+    </style>
+</head>
+<body>
+    <div class="container mt-5 form-container">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="form-heading">Submit Manuscript</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Manuscript Title</label>
+                        <input type="text" class="form-control" id="title" placeholder="Enter manuscript title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="file">Upload Manuscript</label>
+                        <input type="file" class="form-control-file" id="file" required>
+                    </div>
+                    <button type="submit" class="btn btn-custom">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

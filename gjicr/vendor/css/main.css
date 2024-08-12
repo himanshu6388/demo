@@ -1,0 +1,175 @@
+body{
+    background-image: url();
+    background-color: #EEF7FF;
+  
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Header top */
+.header-top{
+
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    /* background-image: url(https://media.istockphoto.com/id/1567067452/photo/big-data-visualization-data-technology-illustration-science-background-3d.jpg?s=2048x2048&w=is&k=20&c=MDZXCAGC7UHrmsqAwEKLnxJ0Htv1XrPc16ZwRuwziCM=); */
+    background-position:center ;
+    background-size: cover;
+}
+.header-top .logo{
+    height: 80px;
+    width: 80px;
+}
+.header-top h1,p{
+    color: #194C7F;
+    margin-left: 50px;
+}
+.header-top p{
+    /* margin-left: 300px; */
+}
+/* ------------------nav bar start-------------------------------------- */
+.navList ul{
+    margin-left: 300px;
+    gap:40px;
+}
+.navList ul li a{
+    color: #fff;
+    font-weight: 500;
+}
+/* brand name */
+.brand-name{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+}
+.nav-link:hover {
+
+    color: red;
+}
+
+.navbar{
+  /* backdrop-filter: blur(8px); */
+  background-color: #194C7F;
+}
+/* ----------------first page content---------------------------------- */
+.first-page-content{
+    height: 500px;
+    width: 100vw;
+    /* background-color: yellow; */
+}
+.col-lg-12.col-sm-12.homepagebanner {
+    margin-top: -7px;
+}
+.col-lg-12.col-sm-12.homepagebanner {
+    margin-bottom: 30px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgcolorbox {
+    background-color: #000000;
+    min-height: 450px;
+    margin-bottom: 0px;
+    opacity: 0.6;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.intext {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 0;
+    width: 60%;
+    right: 0;
+    margin: 0px auto;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 54px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+/* submit button */
+.homepagebanner a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+/* submit button */
+.buttonbox {
+    position: absolute;
+    text-align: center;
+    top: 54%;
+    left: 0;
+    width: 21%;
+    right: 0;
+    margin: 0px auto;
+    color: #fff;
+    font-size: 22px;
+    background-color: #194c7f;
+    padding: 15px 12px;
+    text-transform: capitalize;
+    font-family: 'Noto Sans TC', sans-serif;
+    border-radius: 4px;
+}
+
+
+/* */
+
+.dropdown-menu .dropdown-item{
+    color: #000;
+}
+/* Media query Start */
+/* Media Query for Mobile Phones */
+@media only screen and (max-width: 768px) {
+    
+    .navList ul{
+        margin-left: 50px;
+        gap:40px;
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width:480px){
+
+    .homepagebanner a {
+        color: #007bff;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .buttonbox {
+        text-align: center;
+        color: #fff;
+        top: 80%;
+        width:150px;
+        height: 60px;
+        font-size: 15px;
+        background-color: #194c7f;
+        text-transform: capitalize;
+        font-family: 'Noto Sans TC', sans-serif;
+        overflow: hidden;
+    }
+
+    .intext{
+        position: absolute;
+        text-align: center;
+        top: 5%;
+        left: 0;
+        width: 80%;
+        right: 0;
+        margin: 0px auto;
+        color: #fff;
+        font-size: 22px;
+        padding: 10px 8px;
+        text-transform: capitalize;
+        font-family: 'Noto Sans TC', sans-serif;
+        border-radius: 2px;
+    }
+}

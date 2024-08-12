@@ -1,0 +1,39 @@
+ body {
+      background-color:#ffffff ;
+    }
+    .container {
+      max-width: 900;
+    }
+    .btn-block {
+      border-radius: 50px;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    /* header css */
+
+.header-top{
+
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:#f8f9fa;
+/* background-image: url(https://media.istockphoto.com/id/1567067452/photo/big-data-visualization-data-technology-illustration-science-background-3d.jpg?s=2048x2048&w=is&k=20&c=MDZXCAGC7UHrmsqAwEKLnxJ0Htv1XrPc16ZwRuwziCM=); */
+background-position:center ;
+background-size: cover;
+}
+.header-top .logo{
+height: 80px;
+width: 80px;
+}
+.header-top h1,p{
+color: #194C7F;
+margin-left: 50px;
+}
+.header-top p{
+/* margin-left: 300px; */
+}
